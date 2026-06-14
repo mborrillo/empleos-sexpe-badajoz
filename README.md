@@ -1,4 +1,4 @@
-# Badajoz Empleos Sexpe 
+# Empleos Sexpe Badajoz
 
 Proyecto para la extracción, almacenamiento y análisis de los boletines de empleo del Ayuntamiento de Badajoz.
 
