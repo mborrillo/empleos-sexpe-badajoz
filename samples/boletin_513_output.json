@@ -5,10 +5,159 @@
     "fuente": "Ayuntamiento de Badajoz",
     "nombre_archivo": "boletin_513.pdf"
   },
-
-  "empleo_privado": [],
-
-  "empleo_publico": [],
-
-  "formacion": []
+  "empleo_privado": [
+    {
+      "titulo": "ASESOR/A EN FINANZAS Y GESTIÓN DE PERSONAS",
+      "localidad": "BADAJOZ",
+      "empresa": "Fundación Sorapán",
+      "descripcion": "Gestión económica, financiera y de recursos humanos.",
+      "requisitos": "Titulación universitaria ADE, Económicas, Ciencias del Trabajo, Relaciones Laborales, Dirección de Empresas o similar. Experiencia mínima de 2-3 años.",
+      "contrato": null,
+      "jornada": null,
+      "sector": "FINANZAS",
+      "salario": {
+        "texto_original": null,
+        "valor_min": null,
+        "valor_max": null,
+        "periodicidad": null
+      },
+      "contacto": {
+        "email": null,
+        "telefono": null
+      },
+      "competencias": [
+        {
+          "tipo": "FORMACION",
+          "nombre": "ADE"
+        },
+        {
+          "tipo": "FORMACION",
+          "nombre": "Relaciones Laborales"
+        },
+        {
+          "tipo": "EXPERIENCIA",
+          "nombre": "Experiencia gestión financiera",
+          "valor_numerico": 2
+        }
+      ]
+    },
+    {
+      "titulo": "TRACTORISTA",
+      "localidad": "BADAJOZ",
+      "empresa": null,
+      "descripcion": "Funciones propias del puesto.",
+      "requisitos": "Experiencia mínima de 1 año en maquinaria agrícola. Licencia de vehículo agrícola. Carnet B.",
+      "contrato": "FIJO_DISCONTINUO",
+      "jornada": "PARCIAL",
+      "sector": "AGRICULTURA",
+      "salario": {
+        "texto_original": "1424 euros brutos mensuales",
+        "valor_min": 1424,
+        "valor_max": 1424,
+        "periodicidad": "MENSUAL"
+      },
+      "contacto": {
+        "email": "ofe.badajozurbana2@juntaex.es",
+        "telefono": null
+      },
+      "competencias": [
+        {
+          "tipo": "CARNET",
+          "nombre": "Carnet B"
+        },
+        {
+          "tipo": "SKILL",
+          "nombre": "Maquinaria agrícola"
+        },
+        {
+          "tipo": "EXPERIENCIA",
+          "nombre": "Experiencia maquinaria agrícola",
+          "valor_numerico": 1
+        }
+      ]
+    },
+    {
+      "titulo": "CONDUCTOR DE CAMIÓN PESADO PARA TRANSPORTE INTERNACIONAL",
+      "localidad": "ARROYO DE SAN SERVAN",
+      "empresa": null,
+      "descripcion": "Transporte internacional por carretera.",
+      "requisitos": "Carné C+E, CAP y Tacógrafo en vigor.",
+      "contrato": "INDEFINIDO",
+      "jornada": "COMPLETA",
+      "sector": "TRANSPORTE",
+      "salario": {
+        "texto_original": null,
+        "valor_min": null,
+        "valor_max": null,
+        "periodicidad": null
+      },
+      "contacto": {
+        "email": "administracion@perezrangel.com",
+        "telefono": null
+      },
+      "competencias": [
+        {
+          "tipo": "CARNET",
+          "nombre": "Carnet C+E"
+        },
+        {
+          "tipo": "CERTIFICACION",
+          "nombre": "CAP"
+        },
+        {
+          "tipo": "CERTIFICACION",
+          "nombre": "Tacógrafo"
+        }
+      ]
+    }
+  ],
+  "empleo_publico": [
+    {
+      "organismo": "Consejería de Agricultura, Ganadería y Medio Natural",
+      "puesto": "PASTOR/A",
+      "descripcion": "Limpieza, mantenimiento y cuidado de animales.",
+      "requisitos": "FP Agraria o equivalente.",
+      "fecha_limite": "2026-06-14",
+      "localidad": "BADAJOZ",
+      "url_convocatoria": null
+    },
+    {
+      "organismo": "Diputación de Badajoz",
+      "puesto": "FOTÓGRAFO/A VIDEÓGRAFO/A",
+      "descripcion": "Producción audiovisual y fotografía institucional.",
+      "requisitos": "Bachiller o Técnico. Carnet B. Adobe Premiere, Photoshop, Lightroom, After Effects.",
+      "fecha_limite": "2026-06-19",
+      "localidad": "BADAJOZ",
+      "url_convocatoria": null
+    }
+  ],
+  "formacion": [
+    {
+      "titulo": "Camarero/a de Restaurante / Bar / Catering",
+      "entidad": "Cruz Roja",
+      "modalidad": "PRESENCIAL",
+      "duracion_horas": 130,
+      "fecha_inicio": null,
+      "localidad": "BADAJOZ",
+      "descripcion": "Incluye manipulador de alimentos."
+    },
+    {
+      "titulo": "Atención al cliente, reposición y caja",
+      "entidad": "Cruz Roja",
+      "modalidad": "ONLINE",
+      "duracion_horas": 130,
+      "fecha_inicio": null,
+      "localidad": "BADAJOZ",
+      "descripcion": "Programa Aceleradores GO."
+    },
+    {
+      "titulo": "Dinamización de actividades de tiempo libre educativo infantil y juvenil",
+      "entidad": "GEROCIO",
+      "modalidad": "TELEFORMACION",
+      "duracion_horas": 302,
+      "fecha_inicio": "2026-09-09",
+      "localidad": "BADAJOZ",
+      "descripcion": "SSCB0209. Formación para personas desempleadas."
+    }
+  ]
 }
