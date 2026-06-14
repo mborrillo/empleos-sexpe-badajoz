@@ -1,1 +1,318 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Boletin Empleo Badajoz",
+  "type": "object",
+  "required": [
+    "boletin",
+    "empleo_privado",
+    "empleo_publico",
+    "formacion"
+  ],
+  "properties": {
+    "boletin": {
+      "type": "object",
+      "required": [
+        "numero_boletin",
+        "fecha_publicacion"
+      ],
+      "properties": {
+        "numero_boletin": {
+          "type": "integer"
+        },
+        "fecha_publicacion": {
+          "type": "string",
+          "format": "date"
+        },
+        "fuente": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "nombre_archivo": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
 
+    "empleo_privado": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/empleo_privado"
+      }
+    },
+
+    "empleo_publico": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/empleo_publico"
+      }
+    },
+
+    "formacion": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/formacion"
+      }
+    }
+  },
+
+  "$defs": {
+
+    "competencia": {
+      "type": "object",
+      "required": [
+        "tipo",
+        "nombre"
+      ],
+      "properties": {
+        "tipo": {
+          "type": "string",
+          "enum": [
+            "SKILL",
+            "SOFTWARE",
+            "IDIOMA",
+            "CARNET",
+            "CERTIFICACION",
+            "FORMACION",
+            "EXPERIENCIA"
+          ]
+        },
+        "nombre": {
+          "type": "string"
+        },
+        "nivel": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "valor_numerico": {
+          "type": [
+            "number",
+            "null"
+          ]
+        }
+      }
+    },
+
+    "empleo_privado": {
+      "type": "object",
+      "required": [
+        "titulo",
+        "localidad"
+      ],
+      "properties": {
+
+        "titulo": {
+          "type": "string"
+        },
+
+        "localidad": {
+          "type": "string"
+        },
+
+        "empresa": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+
+        "descripcion": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+
+        "requisitos": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+
+        "contrato": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+
+        "jornada": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+
+        "sector": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+
+        "salario": {
+          "type": "object",
+          "properties": {
+            "texto_original": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "valor_min": {
+              "type": [
+                "number",
+                "null"
+              ]
+            },
+            "valor_max": {
+              "type": [
+                "number",
+                "null"
+              ]
+            },
+            "periodicidad": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          }
+        },
+
+        "contacto": {
+          "type": "object",
+          "properties": {
+            "email": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "telefono": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          }
+        },
+
+        "competencias": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/competencia"
+          }
+        }
+      }
+    },
+
+    "empleo_publico": {
+      "type": "object",
+      "properties": {
+
+        "organismo": {
+          "type": "string"
+        },
+
+        "puesto": {
+          "type": "string"
+        },
+
+        "descripcion": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+
+        "requisitos": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+
+        "fecha_limite": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+
+        "localidad": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+
+        "url_convocatoria": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+
+    "formacion": {
+      "type": "object",
+      "properties": {
+
+        "titulo": {
+          "type": "string"
+        },
+
+        "entidad": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+
+        "modalidad": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+
+        "duracion_horas": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+
+        "fecha_inicio": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+
+        "localidad": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+
+        "descripcion": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    }
+  }
+}
