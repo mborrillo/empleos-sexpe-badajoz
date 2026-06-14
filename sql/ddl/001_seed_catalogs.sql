@@ -1,0 +1,15 @@
+INSERT INTO sectores (nombre)
+VALUES
+('ADMINISTRACION'),
+('AGRICULTURA'),
+('HOSTELERIA'),
+('COMERCIO'),
+('CONSTRUCCION'),
+('INDUSTRIA'),
+('TRANSPORTE'),
+('ENERGIA'),
+('EDUCACION'),
+('SANIDAD'),
+('SERVICIOS_SOCIALES'),
+('competencia_tipos'),
+('OTROS');
