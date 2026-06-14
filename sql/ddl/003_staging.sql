@@ -1,6 +1,8 @@
-CREATE TABLE staging_boletines (
-    staging_id BIGSERIAL PRIMARY KEY,
-    fecha_carga TIMESTAMP DEFAULT NOW(),
-    nombre_archivo TEXT,
-    json_payload JSONB NOT NULL
+INSERT INTO staging_boletines (
+    nombre_archivo,
+    json_payload
+)
+VALUES (
+    'boletin_513.pdf',
+    $$PEGAR_JSON_AQUI$$::jsonb
 );
