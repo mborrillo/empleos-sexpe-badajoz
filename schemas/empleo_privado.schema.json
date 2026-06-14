@@ -1,0 +1,29 @@
+{
+  "type": "object",
+  "properties": {
+    "titulo": {
+      "type": "string"
+    },
+    "localidad": {
+      "type": "string"
+    },
+    "empresa": {
+      "type": ["string", "null"]
+    },
+    "descripcion": {
+      "type": ["string", "null"]
+    },
+    "requisitos": {
+      "type": "array"
+    },
+    "contrato": {
+      "type": ["string", "null"]
+    },
+    "sector": {
+      "type": ["string", "null"]
+    },
+    "skills": {
+      "type": "array"
+    }
+  }
+}
