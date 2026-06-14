@@ -1,4 +1,4 @@
-CREATE OR REPLACE VIEW vw_skills_demanda AS
+CREATE OR REPLACE VIEW vw_competencias_demanda AS
 SELECT
 
     sk.skill_id,
